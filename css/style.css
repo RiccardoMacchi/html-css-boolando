@@ -56,14 +56,9 @@ nav#menuheader li{
 }
 
 .discount {
-    background-color: red;
-    color: #fff;
-    padding: 4px;
-    text-align: center;
-    width: 20%;
-    position: relative;
+    position: absolute;
     left: 0px;
-    bottom: 110px;
+    bottom: 50px;
     display: inline-block;
 }
 
@@ -72,10 +67,18 @@ nav#menuheader li{
     color: #fff;
     padding: 4px;
     text-align: center;
-    position: absolute;
-    left: 65px;
-    bottom: 0px;
+    display: inline-block;
 }
+.sconto {
+    background-color: red;
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+    display: inline;
+    margin-right: 5px;
+
+}
+
 
 .heart {
     position: absolute;
