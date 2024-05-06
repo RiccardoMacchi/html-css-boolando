@@ -57,27 +57,25 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
     width: 75%;
     margin: auto;
 }
 .prodact {
     position: relative;
-    max-height: 400px;
-    width: calc(100% -60px / 3);
+    width: calc((100% - 40px) / 3);
     margin-top: 35px;
     margin-bottom: 45px;
-    /* Debug */
-    background-color: #ff6900;
 }
 
 .imgprodact {
-    max-height: 400px;
+    width: 100%;
 }
 
 .discount {
     position: absolute;
     left: 0px;
-    bottom: 50px;
+    bottom: 20%;
     display: inline-block;
 }
 
@@ -129,8 +127,7 @@ main {
 /* Regole di hover */
 .imgprodact2 {
     display: none;
-    max-height: 400px;
-    width: calc(100% -60px / 3);
+    width: 100%;
 }
 
 .prodact:hover .imgprodact{
@@ -157,7 +154,7 @@ footer{
     justify-content: space-between;
     width: 75%;
     margin: auto;
-    padding: 15px 0px;
+    padding: 15px 0;
 }
 
 i {
