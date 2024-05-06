@@ -18,7 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 75%;
     margin: auto;
     padding: 25px 0;
 
@@ -30,4 +30,23 @@ header{
 
 nav#menuheader li{
     display: inline;
+}
+
+
+/* Regole prod */
+#contprod {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+.prodact {
+    max-height: 400px;
+    /* width: calc(100% / 3); */
+    /* Debug */
+    background-color: #ff6900;
+}
+
+.imgprodact {
+    max-height: 400px;
 }
