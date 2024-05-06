@@ -1,0 +1,33 @@
+/* Regole generali */
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* Regole header */
+
+header{
+    background-color: #ff6900;
+    min-height: 100px;
+    color: #fff;
+}
+
+#flex-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 25px 0;
+
+}
+
+#logo {
+    max-height: 50px;
+}
+
+nav#menuheader li{
+    display: inline;
+}
