@@ -61,14 +61,17 @@ main {
     width: 75%;
     margin: auto;
 }
-.prodact {
-    position: relative;
+.altrocont {
     width: calc((100% - 40px) / 3);
     margin-top: 35px;
     margin-bottom: 45px;
 }
 
-.imgprodact {
+.product {
+    position: relative;
+}
+
+.imgproduct {
     width: 100%;
 }
 
@@ -100,11 +103,10 @@ main {
 .heart {
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 5px;
     font-size: 35px;
     background-color: #fff;
     padding: 8px;
-    margin-top: 5px;
 }
 
 .heart:hover {
@@ -125,16 +127,16 @@ main {
 
 
 /* Regole di hover */
-.imgprodact2 {
+.imgproduct2 {
     display: none;
     width: 100%;
 }
 
-.prodact:hover .imgprodact{
+.product:hover .imgproduct{
     display: none;
 }
 
-.prodact:hover .imgprodact2{
+.product:hover .imgproduct2{
     cursor: pointer;
     display: inline-block;
 }
